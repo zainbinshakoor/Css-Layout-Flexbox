@@ -20,3 +20,38 @@ a{
     float: left;
     font-size: 20px;
 }
+#sidebar{
+    background-color:gray;
+    height: 420px;
+    width: 100%;
+    display: flex;
+}
+#sidenav{
+    background-color: coral;
+    width: 25%;
+    height: 400px;
+    padding: 10px;
+    
+}
+.navitem{
+    background-color:goldenrod;
+    height: 30px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#maincontent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#rightbar{
+    background-color: coral;
+    height: 400px;
+    width: 25%;
+    padding: 10px;
+}
