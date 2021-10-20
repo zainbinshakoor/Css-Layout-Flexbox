@@ -7,3 +7,16 @@
     align-items: center;
     justify-content: center;
 }
+#navbar{
+    background-color: cyan;
+    height: 50px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    padding: 15px  ;
+    display: flex;
+    justify-content: center;
+    float: left;
+    font-size: 20px;
+}
